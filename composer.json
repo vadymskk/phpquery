@@ -1,0 +1,21 @@
+{
+    "name": "worksection/phpquery",
+    "description": "phpQuery is a server-side, chainable, CSS3 selector driven Document Object Model (DOM) API based on jQuery JavaScript Library.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Vadym Dorokh",
+            "email": "vadymski@gmail.com",
+            "role": "Distributor"
+        }
+    ],
+    "version": "1.0.0",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Worksection\\": "src/"
+        }
+    }
+}
