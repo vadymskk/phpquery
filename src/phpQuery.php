@@ -12,6 +12,10 @@
  * @package phpQuery
  */
 namespace Worksection;
+use Iterator;
+use Countable;
+use ArrayAccess;
+use Exception;
 
 // class names for instanceof
 // TODO move them as class constants into phpQuery
