@@ -16,6 +16,8 @@ use Iterator;
 use Countable;
 use ArrayAccess;
 use Exception;
+use DOMDocument;
+use DOMXPath;
 
 // class names for instanceof
 // TODO move them as class constants into phpQuery
